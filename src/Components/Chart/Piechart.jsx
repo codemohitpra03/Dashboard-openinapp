@@ -30,7 +30,7 @@ const Piechart = ({data}) => {
                     mask:"radial-gradient(farthest-side,#0000 calc(99% - 13px),#000 calc(100% - 13px))"
                 }}></div>
             </div>
-        )
+        ) 
     }
 
 

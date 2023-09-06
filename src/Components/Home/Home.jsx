@@ -18,7 +18,7 @@ const Home = () => {
 
 
     return (
-        <div className='max-h-[96vh] overflow-y-hidden md:flex justify-center  lg:grid lg:grid-cols-2 lg:max-h-[100vh] font-montserrat bg-[#F8FAFF]'>
+        <div className='max-h-screen overflow-y-hidden md:flex justify-center  lg:grid lg:grid-cols-2 lg:max-h-[100vh] font-montserrat bg-[#F8FAFF]'>
             <img src={bgHome} className="hidden lg:block lg:absolute lg:w-1/2 lg:h-screen" />
 
             <div className='absolute welcome transition-transform duration-1000 ease-in-out w-full top-0 bottom-[55vh] lg:hidden'>

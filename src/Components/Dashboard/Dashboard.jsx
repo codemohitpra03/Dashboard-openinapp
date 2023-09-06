@@ -47,7 +47,7 @@ const Dashboard = () => {
 	
 
   return ( //bg-[#F8FAFF]
-    <div className='md:grid  lg:grid-cols-[290px_1fr] max-w-full lg:w-auto min-h-screen font-montserrat bg-[#F8FAFF]'>
+    <div className='md:grid relative lg:grid-cols-[290px_1fr] max-w-full lg:w-auto min-h-screen font-montserrat bg-[#F8FAFF]'>
 
 
 		<div id='sidebar' className=' z-50 transition-transform duration-1000 ease-in-out lg:transition-none flex flex-col absolute w-[100vw] -left-[100vw] lg:left-0 top-16 md:top-[4.5rem] h-[70vh] md:h-[70vh] lg:-translate-x-0 lg:top-0 lg:h-auto lg:w-auto lg:relative lg:m-5 lg:rounded-2xl bg-blue-bg lg:flex lg:flex-col lg:justify-between'>
@@ -55,7 +55,7 @@ const Dashboard = () => {
 			<div className='text-white absolute lg:relative left-8 lg:left-10 top-10 lg:top-14'>
 				<p className='font-bold text-4xl '>Board.</p>
 				<ul className='my-8 flex font-normal flex-col space-y-6 lg:space-y-0 h-[100%] justify-evenly'>
-					<li className={`md:text-xl lg:text cursor-pointer ${(code==="dashboard")?"font-bold":""}`} onClick={()=>setCode("dashboard")}  id='dashboard'><img src={dashboard} className='inline mr-5' width={16} alt="" />Dashboard</li>
+					<li className={`md:text-xl lg:text-base cursor-pointer ${(code==="dashboard")?"font-bold":""}`} onClick={()=>setCode("dashboard")}  id='dashboard'><img src={dashboard} className='inline mr-5' width={16} alt="" />Dashboard</li>
 					
 					<li className={`md:text-xl lg:text-base cursor-pointer ${(code==="transactions")?"font-bold":""}`} onClick={()=>setCode("transactions")} id='transactions'><img src={transactions} className='inline mr-5' width={16} alt="" />Transaction</li>
 					

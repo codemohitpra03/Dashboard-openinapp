@@ -9,9 +9,10 @@ const Profile = () => {
     if(!userProfile.isUser){
         return <AddProfile/>
     }
-
+    {console.log(user,setUser)}
   return (
     <p>Not Rendered</p>
+    
   )
 }
 
