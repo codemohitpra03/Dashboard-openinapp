@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dashbaord-openinapp/static/css/main.ac0606a6.css",
+    "main.js": "/Dashbaord-openinapp/static/js/main.68997f98.js",
+    "static/media/Background-Home.png": "/Dashbaord-openinapp/static/media/Background-Home.1e11abcd1ed5342eb7d0.png",
+    "index.html": "/Dashbaord-openinapp/index.html",
+    "static/media/wave2.svg": "/Dashbaord-openinapp/static/media/wave2.1d548900c0974543eef0a26db0fde7fe.svg",
+    "main.ac0606a6.css.map": "/Dashbaord-openinapp/static/css/main.ac0606a6.css.map",
+    "main.68997f98.js.map": "/Dashbaord-openinapp/static/js/main.68997f98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac0606a6.css",
+    "static/js/main.68997f98.js"
+  ]
+}
